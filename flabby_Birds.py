@@ -85,7 +85,6 @@ if __name__ == "__main__":
         background()
         Bird()
         #Pipe()
-        Floor_merge()
         Pipe_merge()
         #if event.type == PIPESPAWNER:
         #   pipes.append(Create_a_pipe())
@@ -103,7 +102,8 @@ if __name__ == "__main__":
             print(f"Current Pipe Dimensions: {pipe_x_pos} x {newYPosition}")
             print(f"User's current score: {currentScore}")
         
-        
+        Floor_merge()
+
 
         pygame.display.update()
         clock.tick(120)
